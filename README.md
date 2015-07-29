@@ -1,2 +1,1 @@
-# ngcordova
-ngcordova使用经验
+#ngcordova使用经验
