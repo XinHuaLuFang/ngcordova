@@ -2,7 +2,7 @@
 
 [official Apache Cordova Plugin](https://github.com/apache/cordova-plugin-camera)
 
->此插件定义了一个全局的`navigator.camera`对象
+>此插件定义了一个全局的`navigator.camera`对象，提供了拍照和从系统相册选取图片的API。
 
 ###CLI安装照相机插件
 ```
