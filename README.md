@@ -32,7 +32,5 @@
     * [大漠-w3cplus](http://www.w3cplus.com/)
     * [司徒正美-去哪儿](https://github.com/RubyLouvre)
     * [杰克](http://www.cnblogs.com/jikey)
-    * [F7-付琦](http://www.imf7.com/)
-    * []()
-    * []()
-    * []()
+    * [7哥-付琦](http://www.imf7.com/)
+    * :clap:期待您的加入
