@@ -140,4 +140,4 @@ module.controller("ctrl", function($scope, $cordovaCamera) {
     };
 });
 ```
-<span id="jieshao">aaaaa</span>
+<span name="jieshao">aaaaa</span>
