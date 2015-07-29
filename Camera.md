@@ -1,4 +1,5 @@
 #照相机`$cordovaCamera`
+[official Apache Cordova Plugin](https://github.com/apache/cordova-plugin-camera)
 
 ###CLI安装照相机插件
 ```
