@@ -21,7 +21,8 @@
     popoverOptions: CameraPopoverOptions,
     saveToPhotoAlbum: false,
     cameraDirection: Camera.Direction.BACK，
-    mediaType: Camera.MediaType.PICTURE
+    mediaType: Camera.MediaType.PICTURE，
+    correctOrientation: true
 };
 ```
 
@@ -79,6 +80,8 @@
         ALLMEDIA: 2     //所有媒体类型
     };
 ```
+
+* **correctOrientation**：照相时是否根据设备方向正确旋转图片。
 
 ####CameraError
 错误回调函数提供了错误信息
