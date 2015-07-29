@@ -47,6 +47,8 @@
         PNG: 1
     };
 ```
+* **targetWidth**：图片的像素宽度，需同时设置targetHeight。长宽比例保持不变。
+* **targetHeight**：图片的像素高度，需同时设置targetWidth。长宽比例保持不变。
 
 ---
 ###使用
