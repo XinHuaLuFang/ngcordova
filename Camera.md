@@ -54,6 +54,17 @@
 * :octocat:缺少三个参数，mediaType、correctOrientation、cameraDirection
 
 ---
+###一些坑，小心掉下去了:joy:
+
+####Android
+####IOS
+####Windows Phone 7 and 8
+####Amazon Fire OS
+####BlackBerry
+####FireFox OS
+####Tizen
+
+---
 ###使用
 
 ####CLI安装照相机插件
