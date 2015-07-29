@@ -30,9 +30,9 @@
 * 欢迎前端高手加入
 * 群内高手
     * [大漠-w3cplus](http://www.w3cplus.com/)
-    * []()
-    * []()
-    * []()
+    * [司徒正美-去哪儿](https://github.com/RubyLouvre)
+    * [杰克](http://www.cnblogs.com/jikey)
+    * [F7-付琦](http://www.imf7.com/)
     * []()
     * []()
     * []()
