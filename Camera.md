@@ -29,12 +29,12 @@
         NATIVE_URI: 2,  //返回图片本地URI（例如，IOS为assets-library://，android为content://）
     };
 ```
-* **sourceType**：设置图片来源，缺省值为`CAMERA`。
+* **sourceType**：设置图片来源，缺省值为`CAMERA`。:kiss:添加参数说明
 ```
     Camera.PictureSourceType = {
-        PHOTOLIBRARY: 0,    // :kiss:
-        CAMERA: 1,          // :kiss:
-        SAVEDPHOTOALBUM: 2  // :kiss:
+        PHOTOLIBRARY: 0,    //
+        CAMERA: 1,          //
+        SAVEDPHOTOALBUM: 2  //
     };
 ```
 
