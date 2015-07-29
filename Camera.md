@@ -1,7 +1,7 @@
 #照相机`$cordovaCamera`
 
 ####目录
-        -介绍
+-[介绍](#jieshao)
             +CameraOptions
             +CameraError
             +CameraSuccess
@@ -140,3 +140,4 @@ module.controller("ctrl", function($scope, $cordovaCamera) {
     };
 });
 ```
+<span id="jieshao">aaaaa</span>
