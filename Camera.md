@@ -175,3 +175,9 @@ module.controller("ctrl", function($scope, $cordovaCamera) {
     };
 });
 ```
+
+* 在给CameraOptions设置参数时，可以使用对象属性方式，也可以使用对象属性的值，使用前者方便理解，使用后者简单，但是后者不易于修改。
+```
+    sourceType: Camera.PictureSourceType.CAMERA
+    surceType: 1
+```
