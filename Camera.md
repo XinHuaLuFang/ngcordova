@@ -32,9 +32,9 @@
 * **sourceType**：设置图片来源，缺省值为`CAMERA`。
 ```
     Camera.PictureSourceType = {
-        PHOTOLIBRARY: 0,    // ::kiss::
-        CAMERA: 1,          // ::kiss::
-        SAVEDPHOTOALBUM: 2  // ::kiss::
+        PHOTOLIBRARY: 0,    // :kiss:
+        CAMERA: 1,          // :kiss:
+        SAVEDPHOTOALBUM: 2  // :kiss:
     };
 ```
 
