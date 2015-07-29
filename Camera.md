@@ -21,7 +21,7 @@
 };
 ```
 * **quality**：图片质量，范围0到100，100是指全分辨率无损文件压缩，缺省值为`50`。（注意相机的分辨率信息不可用。）
-* **destinationType**：设置返回值的格式。缺省值为`FILE_URI`。:kiss:FILE_URI和NATIVE_URI的区别
+* **destinationType**：设置返回值的格式。缺省值为`FILE_URI`。:octocat:FILE_URI和NATIVE_URI的区别
 ```
     Camera.DestinationType = {
         DATA_URL: 0,    //把图片以base64字符串返回
@@ -29,7 +29,7 @@
         NATIVE_URI: 2,  //返回图片本地URI（例如，IOS为assets-library://，android为content://）
     };
 ```
-* **sourceType**：设置图片来源，缺省值为`CAMERA`。:kiss:添加参数说明
+* **sourceType**：设置图片来源，缺省值为`CAMERA`。:octocat:添加参数说明
 ```
     Camera.PictureSourceType = {
         PHOTOLIBRARY: 0,    //
@@ -37,6 +37,8 @@
         SAVEDPHOTOALBUM: 2  //
     };
 ```
+* **allowEdit**：选择图片前是否允许简单编辑图片，布尔值。:octocat:缺省值以及编辑方式
+* **encodingType**：
 
 
 ###CLI安装照相机插件
