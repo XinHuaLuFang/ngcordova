@@ -51,7 +51,7 @@
 * **targetHeight**：图片的像素高度，需同时设置targetWidth。长宽比例保持不变。
 * **popoverOptions**：:octocat:未理解
 * **saveToPhotoAlbum**：捕获图像完成后将图像保存到相册中，布尔值。:octocat:未给出缺省值
-* :octocat:缺少三个参数，mediaType、correctOrientation、cameraDirection
+* :octocat:缺少三个参数，`mediaType`、`correctOrientation`、`cameraDirection`
 
 ---
 ###一些坑，小心掉下去了:joy:
