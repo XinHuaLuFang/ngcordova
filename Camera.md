@@ -4,3 +4,29 @@
 ```
     cordova plugin add cordova-plugin-camera
 ```
+
+###Examples
+返回base64编码的图片数据
+```javascript
+module.controller("ctrl", function($scope, $cordovaCamera) {
+    $scope.photograph = function() {
+        var options = {
+            quality: 50,
+            destinationType: Camera.DestinationType.DATA_URL,
+            sourceType: Camera.PictureSourceType.CAMERA,
+            allowEdit: true,
+            encodingType: Camera.EncodingType.JPEG,
+            targetWidth: 100,
+            targetHeight: 100,
+            popoverOptions: CameraPopoverOptions,
+            saveToPhotoAlbum: false
+        };
+        $cordovaCamera.getPicture(options).then(function(imageData) {
+            var image = document.getElementById('myImage');
+            image.src = "data:image/jpeg;base64," + imageData;
+        }, function(error) {
+            //error
+        });
+    };
+});
+```
