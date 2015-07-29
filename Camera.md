@@ -1,11 +1,13 @@
 #照相机`$cordovaCamera`
 
+###介绍
+
 [official Apache Cordova Plugin](https://github.com/apache/cordova-plugin-camera)
 
 >此插件定义了一个全局的`navigator.camera`对象，提供了拍照和从系统相册选取图片的API。<br>
 虽然该对象附加到了全局范围的导航中，但是在`deviceready`事件之前都不可用。
 
-###CameraOptions
+####CameraOptions
 可选参数自定义相机设置
 ```
 {
@@ -46,13 +48,14 @@
     };
 ```
 
+###使用
 
-###CLI安装照相机插件
+####CLI安装照相机插件
 ```
     cordova plugin add cordova-plugin-camera
 ```
 
-###Examples
+####Examples
 返回base64编码的图片数据
 ```javascript
 module.controller("ctrl", function($scope, $cordovaCamera) {
