@@ -21,7 +21,7 @@
 };
 ```
 * **quality**：图片质量，范围0到100，100是指全分辨率无损文件压缩，缺省值为`50`。（注意相机的分辨率信息不可用。）
-* **destinationType**：设置返回值的格式。缺省值为`FILE_URI`。
+* **destinationType**：设置返回值的格式。缺省值为`FILE_URI`。:kiss:FILE_URI和NATIVE_URI的区别
 ```
     Camera.DestinationType = {
         DATA_URL: 0,    //把图片以base64字符串返回
