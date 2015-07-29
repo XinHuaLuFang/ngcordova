@@ -75,7 +75,10 @@
 ###一些坑，小心掉下去了:joy:
 
 ####Android
->>当安卓试图启动相机照相时，并且系统内存过低时，cordova进程可能会被杀死。在这种情况下，当cordova进程恢复时图片将丢失。
+* 当安卓试图启动相机照相时，并且系统内存过低时，cordova进程可能会被杀死。在这种情况下，当cordova进程恢复时图片将丢失。
+* 无论`cameraDirection`设置为何值，都会调用后置摄像头。
+* `sourceType`中，`Camera.PictureSourceType.PHOTOLIBRARY`和`Camera.PictrueSourceType.SAVEDPHOTOALBUM`都会选择相同的相册。
+
 ####IOS
 ####Windows Phone 7 and 8
 ####Amazon Fire OS
@@ -133,4 +136,3 @@ module.controller("ctrl", function($scope, $cordovaCamera) {
     };
 });
 ```
-<a name="jieshao" id="jieshao">aaaaa</a>
