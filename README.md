@@ -4,7 +4,7 @@
 ```
 bower install ngCordova
 ```
-将ngcordova的js文件添加到cordova.js之前，注意cordova.js不需要修改，也不能删除，否则无法实现调用手机PAI功能，我猜应该是编译的时候会指向正确的cordova路径，我猜的，谁知道正确的欢迎指正，fork后pull后者加我QQ：349467221
+将ngcordova的js文件添加到cordova.js之前，注意cordova.js不需要修改，也不能删除，否则无法实现调用手机API功能，我猜应该是编译的时候会指向正确的cordova路径，我猜的，谁知道正确的欢迎指正，fork后pull后者加我QQ:349467221
 ```html
 <!-- cordova script (this will be a 404 during development) -->
 <script src="lib/ngCordova/dist/ng-cordova.min.js"></script>
