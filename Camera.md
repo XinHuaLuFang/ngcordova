@@ -81,6 +81,14 @@
 * Android also uses the Crop Activity for allowEdit, even though crop should work and actually pass the cropped image back to Cordova, the only one that works consistently is the one bundled with the Google Plus Photos application. Other crops may not work.:octocat:谁来翻译下这段
 
 ####IOS
+* destinationType设置为Camera.destinationType.FILE_URI时，图片存储在应用的临时目录中，当应用结束时临时目录将被清除。
+* 在两个回调函数的任何一个中添加js方法`alert()`将会导致错误，应该使用`setTimeout()`将alert包括起来，让IOS相册选择或弹出窗口完全关闭后，再执行alert。:octocat:setTimeout设置0延迟的原因
+```
+    setTimeout(function() {
+        //添加自定义操作
+    }, 0);
+```
+
 ####Windows Phone 7 and 8
 ####Amazon Fire OS
 ####BlackBerry
