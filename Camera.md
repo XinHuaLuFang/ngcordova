@@ -78,6 +78,7 @@
 * 当安卓试图启动相机照相时，并且系统内存过低时，cordova进程可能会被杀死。在这种情况下，当cordova进程恢复时图片将丢失。
 * 无论`cameraDirection`设置为何值，都会调用后置摄像头。
 * `sourceType`中，`Camera.PictureSourceType.PHOTOLIBRARY`和`Camera.PictrueSourceType.SAVEDPHOTOALBUM`都会选择相同的相册。
+* Android also uses the Crop Activity for allowEdit, even though crop should work and actually pass the cropped image back to Cordova, the only one that works consistently is the one bundled with the Google Plus Photos application. Other crops may not work.:octocat:谁来翻译下这段
 
 ####IOS
 ####Windows Phone 7 and 8
