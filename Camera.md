@@ -1,13 +1,5 @@
 #照相机`$cordovaCamera`
 
-####目录
-        -<a href="#jieshao">介绍</a>
-            +CameraOptions
-            +CameraError
-            +CameraSuccess
-        -一些坑
-        -使用
-
 ###介绍
 
 [official Apache Cordova Plugin](https://github.com/apache/cordova-plugin-camera)
