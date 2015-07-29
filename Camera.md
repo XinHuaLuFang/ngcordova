@@ -19,7 +19,9 @@
     targetWidth: 100,
     targetHeight: 100,
     popoverOptions: CameraPopoverOptions,
-    saveToPhotoAlbum: false 
+    saveToPhotoAlbum: false,
+    cameraDirection: Camera.Direction.BACK，
+    mediaType: Camera.MediaType.PICTURE
 };
 ```
 * **quality**：图片质量，范围0到100，100是指全分辨率无损文件压缩，缺省值为`50`。（注意相机的分辨率信息不可用。）
@@ -51,7 +53,21 @@
 * **targetHeight**：图片的像素高度，需同时设置targetWidth。长宽比例保持不变。
 * **popoverOptions**：:octocat:未理解
 * **saveToPhotoAlbum**：捕获图像完成后将图像保存到相册中，布尔值。:octocat:未给出缺省值
-* :octocat:缺少三个参数，`mediaType`、`correctOrientation`、`cameraDirection`
+* **cameraDirection**：照相机使用前置或后置摄像头，缺省值为`BACK`。
+```
+    Camera.Direction = {
+        BACK: 0,    //后置摄像头
+        FRONT: 1    //前置摄像头
+    };
+```
+* **mediaType**：设置选择的媒体类型，只有当`sourceType`为`PHOTOLIBRARY`或`SAVEDPHOTOALBUM`时生效。缺省值为`PICTURE`
+```
+    Camera.MediaType = {
+        PICTURE: 0,     //图片，通过destinationType的设置返回指定格式。
+        VIDEO: 1,       //视频，总是返回FILE_URI
+        ALLMEDIA: 2     //所有媒体类型
+    };
+```
 
 ####CameraError
 错误回调函数提供了错误信息
