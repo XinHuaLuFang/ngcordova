@@ -1,6 +1,7 @@
 #照相机`$cordovaCamera`
 
 ###介绍
+###
 
 [official Apache Cordova Plugin](https://github.com/apache/cordova-plugin-camera)
 
@@ -49,7 +50,7 @@
 ```
 
 ###使用
-
+###
 ####CLI安装照相机插件
 ```
     cordova plugin add cordova-plugin-camera
