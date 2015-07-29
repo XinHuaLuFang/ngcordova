@@ -5,6 +5,20 @@
 >此插件定义了一个全局的`navigator.camera`对象，提供了拍照和从系统相册选取图片的API。<br>
 虽然该对象附加到了全局范围的导航中，但是在`deviceready`事件之前都不可用。
 
+###CameraOptions
+可选参数自定义相机设置
+'''
+    quality : 75,
+    destinationType : Camera.DestinationType.DATA_URL,
+    sourceType : Camera.PictureSourceType.CAMERA,
+    allowEdit : true,
+    encodingType: Camera.EncodingType.JPEG,
+    targetWidth: 100,
+    targetHeight: 100,
+    popoverOptions: CameraPopoverOptions,
+    saveToPhotoAlbum: false };
+'''
+
 ###CLI安装照相机插件
 ```
     cordova plugin add cordova-plugin-camera
