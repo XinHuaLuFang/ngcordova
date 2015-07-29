@@ -33,4 +33,4 @@
     * [司徒正美-去哪儿](https://github.com/RubyLouvre)
     * [杰克](http://www.cnblogs.com/jikey)
     * [7哥-付琦](http://www.imf7.com/)
-    * :clap:期待您的加入
+    * :clap:期待您的加入:clap:
