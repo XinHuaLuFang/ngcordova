@@ -1,6 +1,6 @@
 #照相机`$cordovaCamera`
 [official Apache Cordova Plugin](https://github.com/apache/cordova-plugin-camera)
-
+>此插件定义了一个全局的`navigator.camera`对象
 ###CLI安装照相机插件
 ```
     cordova plugin add cordova-plugin-camera
