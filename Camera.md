@@ -11,18 +11,18 @@
 可选参数自定义相机设置
 ```
 {
-    quality : 75,
-    destinationType : Camera.DestinationType.DATA_URL,
-    sourceType : Camera.PictureSourceType.CAMERA,
-    allowEdit : true,
-    encodingType: Camera.EncodingType.JPEG,
+    quality : 75,                                       //0~100
+    destinationType : Camera.DestinationType.DATA_URL,  //0 || 1 || 2
+    sourceType : Camera.PictureSourceType.CAMERA,       //0 || 1 || 2
+    allowEdit : true,                                   //bool
+    encodingType: Camera.EncodingType.JPEG,             //0 || 1
     targetWidth: 100,
     targetHeight: 100,
     popoverOptions: CameraPopoverOptions,
-    saveToPhotoAlbum: false,
-    cameraDirection: Camera.Direction.BACK，
-    mediaType: Camera.MediaType.PICTURE，
-    correctOrientation: true
+    saveToPhotoAlbum: false,                            //bool
+    cameraDirection: Camera.Direction.BACK,             //0 || 1
+    mediaType: Camera.MediaType.PICTURE,                //0 || 1 || 2
+    correctOrientation: true                            //bool
 };
 ```
 
