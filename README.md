@@ -26,4 +26,13 @@
 * 欢迎守法公民加入
 
 ###:+1:西安前端开发者分享交流会 WDShare
-* [W3C Developer Share](http://www.wdshare.org/)
+* [W3C Developer Share官网](http://www.wdshare.org/)
+* 欢迎前端高手加入
+* 群内高手
+    * [大漠-w3cplus](http://www.w3cplus.com/)
+    * []()
+    * []()
+    * []()
+    * []()
+    * []()
+    * []()
