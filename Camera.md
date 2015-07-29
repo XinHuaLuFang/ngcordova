@@ -24,7 +24,9 @@
     mediaType: Camera.MediaType.PICTURE
 };
 ```
+
 * **quality**：图片质量，范围0到100，100是指全分辨率无损文件压缩，缺省值为`50`。（注意相机的分辨率信息不可用。）
+
 * **destinationType**：设置返回值的格式。缺省值为`FILE_URI`。:octocat:FILE_URI和NATIVE_URI的区别
 ```
     Camera.DestinationType = {
@@ -33,6 +35,7 @@
         NATIVE_URI: 2,  //返回图片本地URI（例如，IOS为assets-library://，android为content://）
     };
 ```
+
 * **sourceType**：设置图片来源，缺省值为`CAMERA`。:octocat:添加参数说明
 ```
     Camera.PictureSourceType = {
@@ -41,7 +44,9 @@
         SAVEDPHOTOALBUM: 2  //
     };
 ```
+
 * **allowEdit**：选择图片前是否允许简单编辑图片，布尔值。:octocat:缺省值以及编辑方式
+
 * **encodingType**：设置返回图片文件的编码格式。缺省值为`JPEG'。
 ```
     Camera.EncodingType = {
@@ -49,10 +54,15 @@
         PNG: 1
     };
 ```
+
 * **targetWidth**：图片的像素宽度，需同时设置targetHeight。长宽比例保持不变。
+
 * **targetHeight**：图片的像素高度，需同时设置targetWidth。长宽比例保持不变。
+
 * **popoverOptions**：:octocat:未理解
+
 * **saveToPhotoAlbum**：捕获图像完成后将图像保存到相册中，布尔值。:octocat:未给出缺省值
+
 * **cameraDirection**：照相机使用前置或后置摄像头，缺省值为`BACK`。
 ```
     Camera.Direction = {
@@ -60,6 +70,7 @@
         FRONT: 1    //前置摄像头
     };
 ```
+
 * **mediaType**：设置选择的媒体类型，只有当`sourceType`为`PHOTOLIBRARY`或`SAVEDPHOTOALBUM`时生效。缺省值为`PICTURE`
 ```
     Camera.MediaType = {
