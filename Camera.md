@@ -1,7 +1,7 @@
 #照相机`$cordovaCamera`
 
 ####目录
--[介绍](#jieshao)
+<a href="#jieshao">介绍</a>
             +CameraOptions
             +CameraError
             +CameraSuccess
