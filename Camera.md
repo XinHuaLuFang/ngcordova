@@ -8,6 +8,7 @@
 ###CameraOptions
 可选参数自定义相机设置
 ```
+{
     quality : 75,
     destinationType : Camera.DestinationType.DATA_URL,
     sourceType : Camera.PictureSourceType.CAMERA,
@@ -16,7 +17,8 @@
     targetWidth: 100,
     targetHeight: 100,
     popoverOptions: CameraPopoverOptions,
-    saveToPhotoAlbum: false };
+    saveToPhotoAlbum: false 
+};
 ```
 
 ###CLI安装照相机插件
