@@ -53,6 +53,23 @@
 * **saveToPhotoAlbum**：捕获图像完成后将图像保存到相册中，布尔值。:octocat:未给出缺省值
 * :octocat:缺少三个参数，`mediaType`、`correctOrientation`、`cameraDirection`
 
+####CameraError
+错误回调函数提供了错误信息
+```
+    function(error) {
+        //显示错误信息
+    };
+```
+* **error**：由手机内部系统决定。
+####CameraSuccess
+成功回调函数提供了图像数据
+```
+    function(imageData) {
+        //处理图片
+    };
+```
+* **imageData**：Base64编码的图片数据或者图片的FILE URI，由`CameraOptions`中的参数`destinationType`决定。
+
 ---
 ###一些坑，小心掉下去了:joy:
 
