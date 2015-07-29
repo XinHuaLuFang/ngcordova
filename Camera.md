@@ -12,7 +12,7 @@ module.controller("ctrl", function($scope, $cordovaCamera) {
     $scope.photograph = function() {
         var options = {
             quality: 50,
-            destinationType: Camera.DestinationType.`DATA_URL`,
+            destinationType: Camera.DestinationType.DATA_URL,
             sourceType: Camera.PictureSourceType.CAMERA,
             allowEdit: true,
             encodingType: Camera.EncodingType.JPEG,
@@ -35,7 +35,7 @@ module.controller("ctrl", function($scope, $cordovaCamera) {
 module.controller("ctrl", function($scope, $cordovaCamera) {
     $scope.photograph = function() {
         var options = {
-            destinationType: Camera.DestinationType.`FILE_URI`,
+            destinationType: Camera.DestinationType.FILE_URI,
             sourceType: Camera.PictureSourceType.CAMERA,
         };
         $cordovaCamera.getPicture(options).then(function(imageURI) {
