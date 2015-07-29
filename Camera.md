@@ -38,7 +38,13 @@
     };
 ```
 * **allowEdit**：选择图片前是否允许简单编辑图片，布尔值。:octocat:缺省值以及编辑方式
-* **encodingType**：
+* **encodingType**：设置返回图片文件的编码格式。缺省值为`JPEG'。
+```
+    Camera.EncodingType = {
+        JPEG: 0,
+        PNG: 1
+    };
+```
 
 
 ###CLI安装照相机插件
