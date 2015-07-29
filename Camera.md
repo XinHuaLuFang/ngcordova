@@ -75,6 +75,7 @@
 ###一些坑，小心掉下去了:joy:
 
 ####Android
+当安卓试图启动相机照相时，并且系统内存过低时，cordova进程可能会被杀死。在这种情况下，当cordova进程恢复时图片将丢失。
 ####IOS
 ####Windows Phone 7 and 8
 ####Amazon Fire OS
