@@ -1,6 +1,6 @@
 # 图片选择$cordovaImagePicker
 
-###
+---
 
 ###介绍
 
@@ -17,3 +17,14 @@
 * **height**：调整图片的高度。(如果width或height之一为0，则图片将按比例调整，如果两者都为0则返回原图片)
 
 * **quality**：调整后图片的质量，缺省值为`100`。
+
+---
+### 使用
+
+#### CLI安装插件
+```
+    cordova plugin add https://github.com/wymsee/cordova-imagePicker.git
+```
+
+#### Examples
+
